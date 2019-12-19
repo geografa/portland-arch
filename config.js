@@ -13,7 +13,7 @@ var config = {
             id: 'id-fhd',
             title: 'The Fair-haired Dumb Bell',
             image: './images/pdx/fhd.jpg',
-            description: 'The Fair-Haired Dumbbell is a building located at 11 Northeast Martin Luther King Jr. Blvd., in Portland, Oregon\'s Kerns neighborhood, in the United States. Its exterior design was created by Los Angeles artist James Jean, and was selected by the Regional Arts & Culture Council, the city, and Guerrilla Development. Dan Cohen painted the artwork in June 2017. - Wikipedia, https://en.wikipedia.org/wiki/Fair-Haired_Dumbbell <img src="https://api.mapbox.com/styles/v1/mapbox/light-v10/static/-122.662,45.5231,13.35/375x200?access_token=pk.eyJ1IjoiZ3JhZmEiLCJhIjoiY2ptYjNtZWxnMDBrdDNwbnVicGJzOWg2NyJ9.9OulyCe3kEqMAXPbx1mKUA" />',
+            description: 'The Fair-Haired Dumbbell is a building located at 11 Northeast Martin Luther King Jr. Blvd., in Portland, Oregon\'s Kerns neighborhood, in the United States. Its exterior design was created by Los Angeles artist James Jean, and was selected by the Regional Arts & Culture Council, the city, and Guerrilla Development. Dan Cohen painted the artwork in June 2017. - Wikipedia, https://en.wikipedia.org/wiki/Fair-Haired_Dumbbell <div id="staticMap"></div>',
             location: {
                 center: [-122.66187, 45.52352],
                 zoom: 17.10,
