@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset='utf-8' />
-    <title>Space & Place // An architectural tour of Portland Oregon</title>
+    <title>Space & Place // An architectural tour of Portland</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
@@ -194,6 +194,12 @@ config.chapters.forEach((record, idx) => {
         var story = document.createElement('p');
         story.innerHTML = record.description;
         chapter.appendChild(story);
+    }
+
+    if (record.staticMap) {
+        var staticMap = new Image();  
+        staticMap.src = 'https://api.mapbox.com/styles/v1/grafa/ck4by36yt2qzd1cln7nxt58jm/static/url-https%3A%2F%2Fgeografa.github.io%2Fportland-arch%2Fimages%2Fpdx%2Fpeople.png(' + record.location.center + ')/' + record.location.center + ',12/375x300?access_token=pk.eyJ1IjoiZ3JhZmEiLCJhIjoiY2ptYjNtZWxnMDBrdDNwbnVicGJzOWg2NyJ9.9OulyCe3kEqMAXPbx1mKUA';
+        chapter.appendChild(staticMap);
     }
 
     container.setAttribute('id', record.id);
