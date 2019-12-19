@@ -78,7 +78,7 @@ var config = {
             title: 'The Portland Building',
             image: './images/pdx/portlandia.jpg',
             staticMap: true,
-            description: 'The Portland Building',
+            description: 'Portlandia is a sculpture by Raymond Kaskey located above the entrance of the Portland Building, in downtown Portland, Oregon, at 1120 SW 5th Avenue. It is the second-largest copper repoussé statue in the United States, after the Statue of Liberty. The statue is based on the design of the city seal. It depicts a woman dressed in classical clothes, holding a trident in the left hand and reaching down with the right hand. The statue is above street level and faces a relatively narrow, tree-lined street. An accompanying plaque contains a poem by Portland resident Ronald Talney.\"She kneels down, and from the quietness of copper reaches out. We take that stillness into ourselves, and somewhere deep in the earth our breath becomes her city. If she could speak this is what she would say: Follow that breath. Home is the journey we make. This is how the world knows where we are." The statue was recently covered by a protective shroud, hiding it from view for more than a year, during reconstruction of the building on which it stands. It was shrouded from March 2018 until September 2019.[5]',
             location: {
                 center: [-122.67843, 45.51526],
                 zoom: 17.35,
