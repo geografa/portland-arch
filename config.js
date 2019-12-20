@@ -131,6 +131,21 @@ var config = {
          },
             onChapterEnter: [],
             onChapterExit: []
+        },
+        {
+            id: 'id-instrument',
+            title: 'Instrument',
+            image: './images/pdx/instrument.png',
+            staticMap: true,
+            description: 'https://www.instrument.com/',
+            location: {
+                center: [-122.66674, 45.54832],
+                zoom: 18.05,
+                pitch: 60.00,
+                bearing: -37.97
+         },
+            onChapterEnter: [],
+            onChapterExit: []
         }
     ]
 };
