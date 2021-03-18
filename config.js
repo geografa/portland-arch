@@ -122,7 +122,7 @@ var config = {
             title: 'Hollywood Theater',
             image: './images/pdx/hollywood.jpg',
             staticMap: true,
-            description: 'Hollywood Theater',
+            description: 'Hollywood Theater <iframe width="430" height="315" src="https://www.youtube.com/embed/8LsBT9UStmk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             location: {
                 center: [-122.62082, 45.53567],
                 zoom: 17.52,
